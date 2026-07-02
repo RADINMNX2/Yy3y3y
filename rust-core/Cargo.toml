@@ -1,0 +1,18 @@
+[package]
+name = "aurash-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.21.1"
+tokio = { version = "1.35.1", features = ["full"] }
+rustls = "0.21.10"
+webpki-roots = "0.25.3"
+ring = "0.17.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+lazy_static = "1.4.0"
+libc = "0.2"

@@ -1,0 +1,6 @@
+{
+  "name": "RADINMNX ADB Terminal",
+  "description": "Real Wireless ADB implementation with Rust core and Dark Red Premium Theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
